@@ -33,9 +33,9 @@ layers:
   - .
   - /
   - ;
-  - {t: ESCAPE, h: sim}
+  - A
   - {t: BACKSPACE, h: nav}
-  - TAB
+  - {t: TAB, h: sim}
   - RET
   - SPACE
   - {t: ▽, type: trans}
@@ -43,14 +43,14 @@ layers:
   - ESC
   - {t: ▽, type: trans}
   - UP
-  - '='
+  - {t: ▽, type: trans}
   - '{'
   - '}'
   - '7'
   - '8'
   - '9'
   - KP PLUS
-  - LSHFT
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
@@ -71,26 +71,26 @@ layers:
   - '2'
   - '3'
   - KP MULTIPLY
-  - {t: ▽, type: trans}
+  - '='
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 0
+  - '0'
   sim:
   - '!'
   - '@'
   - '#'
+  - PREV
+  - NEXT
   - $
-  - '%'
-  - ^
   - '&'
   - AGr+ U
   - ''''
   - '"'
-  - AGr+ A
-  - {t: ▽, type: trans}
+  - Ctl+Gui+ S
+  - Ctl+Gui+ D
   - AGr+ S
   - PLAY PAUSE
   - MUTE
@@ -100,9 +100,9 @@ layers:
   - AGr+ 4
   - AGr+ O
   - {t: ▽, type: trans}
-  - AGr+ F18
-  - AGr+ F19
+  - Sft+Ctl+Gui+ C
   - {t: ▽, type: trans}
+  - Gui+ '
   - VOL DN
   - VOL UP
   - VOL DN
@@ -111,9 +111,9 @@ layers:
   - NEXT
   - \
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -42,10 +42,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q               &kp W           &kp E         &kp R             &kp T      &kp Y    &kp U              &kp I        &kp O            &kp P
-                    &mt LEFT_COMMAND A  &mt LEFT_ALT S  &mt LCTRL D   &mt LEFT_SHIFT F  &kp G      &kp H    &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI APOS
-&mt LEFT_SHIFT ESC  &kp Z               &kp X           &kp C         &kp V             &kp B      &kp N    &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
-                                                        &lt 2 ESCAPE  &lt 1 BACKSPACE   &kp TAB    &kp RET  &kp SPACE          &trans
+                    &kp Q               &kp W           &kp E        &kp R             &kp T        &kp Y    &kp U              &kp I        &kp O            &kp P
+                    &mt LEFT_COMMAND A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G        &kp H    &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI APOS
+&mt LEFT_SHIFT ESC  &kp Z               &kp X           &kp C        &kp V             &kp B        &kp N    &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
+                                                        &kp A        &lt 1 BACKSPACE   &lt 2 TAB    &kp RET  &kp SPACE          &trans
             >;
         };
 
@@ -68,10 +68,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &trans     &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp N7  &kp N8           &kp N9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp N4  &kp N5           &kp N6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP  &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp N1  &kp N2           &kp N3  &kp KP_MULTIPLY  &trans
-                              &trans    &trans     &trans      &trans    &trans  &kp KP_NUMBER_0
+        &kp ESC  &trans     &kp UP    &trans     &kp LBRC    &kp RBRC  &kp N7  &kp N8  &kp N9  &kp KP_PLUS
+        &trans   &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp N4  &kp N5  &kp N6  &kp KP_MINUS
+&trans  &kp DEL  &kp PG_UP  &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp N1  &kp N2  &kp N3  &kp KP_MULTIPLY  &kp EQUAL
+                            &trans    &trans     &trans      &trans    &trans  &kp N0
             >;
         };
 
@@ -94,10 +94,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR          &kp PRCNT       &kp CARET     &kp AMPS          &kp RA(U)   &kp SQT     &kp DQT
-        &kp RA(A)    &trans       &kp RA(S)  &kp C_PLAY_PAUSE  &kp C_MUTE      &kp C_MUTE    &kp C_PLAY_PAUSE  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &kp C_VOL_DN      &kp C_VOL_UP    &kp C_VOL_DN  &kp C_VOL_UP      &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
-                                  &trans     &trans            &trans          &trans        &trans            &trans
+        &kp EXCL           &kp AT         &kp HASH     &kp C_PREV        &kp C_NEXT      &kp DOLLAR    &kp AMPS          &kp RA(U)   &kp SQT     &kp DQT
+        &kp LC(LG(S))      &kp LC(LG(D))  &kp RA(S)    &kp C_PLAY_PAUSE  &kp C_MUTE      &kp C_MUTE    &kp C_PLAY_PAUSE  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
+&trans  &kp LS(LC(LG(C)))  &trans         &kp LG(SQT)  &kp C_VOL_DN      &kp C_VOL_UP    &kp C_VOL_DN  &kp C_VOL_UP      &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
+                                          &trans       &trans            &trans          &trans        &trans            &trans
             >;
         };
 
