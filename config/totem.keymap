@@ -21,9 +21,9 @@
     combos { compatible = "zmk,combos"; };
 
     behaviors {
-        hr_delay: hr_delay {
+        hr: hr {
             compatible = "zmk,behavior-hold-tap";
-            label = "HR_DELAY";
+            label = "HR";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -55,10 +55,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q                     &kp W           &kp E        &kp R             &kp T      &kp Y    &kp U              &kp I        &kp O            &kp P
-                    &hr_delay LEFT_COMMAND A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G      &kp H    &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI APOS
-&mt LEFT_SHIFT ESC  &kp Z                     &kp X           &kp C        &kp V             &kp B      &kp N    &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
-                                                              &lt 2 ESC    &lt 1 BACKSPACE   &kp TAB    &kp RET  &kp SPACE          &trans
+                    &kp Q               &kp W           &kp E        &kp R             &kp T      &kp Y    &kp U              &kp I        &kp O            &kp P
+                    &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D  &hr LEFT_SHIFT F  &kp G      &kp H    &hr RIGHT_SHIFT J  &hr RCTRL K  &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
+&mt LEFT_SHIFT ESC  &kp Z               &kp X           &kp C        &kp V             &kp B      &kp N    &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
+                                                        &lt 2 ESC    &lt 1 BACKSPACE   &kp TAB    &kp RET  &kp SPACE          &trans
             >;
         };
 
