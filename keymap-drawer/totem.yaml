@@ -33,9 +33,9 @@ layers:
   - .
   - /
   - ;
-  - A
+  - {t: ESC, h: sim}
   - {t: BACKSPACE, h: nav}
-  - {t: TAB, h: sim}
+  - TAB
   - RET
   - SPACE
   - {t: ▽, type: trans}
@@ -111,9 +111,9 @@ layers:
   - NEXT
   - \
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
