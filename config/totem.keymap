@@ -20,6 +20,18 @@
 / {
     combos { compatible = "zmk,combos"; };
 
+    behaviors {
+        command_delay: command_delay {
+            compatible = "zmk,behavior-hold-tap";
+            label = "COMMAND_DELAY";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <125>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -42,10 +54,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q               &kp W           &kp E        &kp R             &kp T      &kp Y    &kp U              &kp I        &kp O            &kp P
-                    &mt LEFT_COMMAND A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G      &kp H    &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI APOS
-&mt LEFT_SHIFT ESC  &kp Z               &kp X           &kp C        &kp V             &kp B      &kp N    &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
-                                                        &lt 2 ESC    &lt 1 BACKSPACE   &kp TAB    &kp RET  &kp SPACE          &trans
+                    &kp Q                          &kp W           &kp E        &kp R             &kp T      &kp Y    &kp U              &kp I        &kp O            &kp P
+                    &command_delay LEFT_COMMAND A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G      &kp H    &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI APOS
+&mt LEFT_SHIFT ESC  &kp Z                          &kp X           &kp C        &kp V             &kp B      &kp N    &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
+                                                                   &lt 2 ESC    &lt 1 BACKSPACE   &kp TAB    &kp RET  &kp SPACE          &trans
             >;
         };
 
