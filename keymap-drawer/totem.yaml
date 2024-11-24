@@ -41,9 +41,9 @@ layers:
   - {t: ▽, type: trans}
   NAVI:
   - {t: ▽, type: trans}
-  - PG UP
+  - SCROLL DOWN
   - UP
-  - {t: ▽, type: trans}
+  - SCROLL UP
   - '{'
   - '}'
   - '7'
