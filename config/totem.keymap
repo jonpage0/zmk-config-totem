@@ -81,10 +81,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &trans   &kp PG_UP  &kp UP      &trans       &kp LBRC    &kp RBRC  &kp N7  &kp N8  &kp N9  &kp KP_PLUS
-         &trans   &kp LEFT   &kp DOWN    &kp RIGHT    &kp LBKT    &kp RBKT  &kp N4  &kp N5  &kp N6  &kp KP_MINUS
-&kp ESC  &kp DEL  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp LPAR    &kp RPAR  &kp N1  &kp N2  &kp N3  &kp KP_MULTIPLY  &kp EQUAL
-                             &trans      &trans       &trans      &trans    &trans  &kp N0
+         &trans   &kp K_SCROLL_DOWN  &kp UP      &kp K_SCROLL_UP  &kp LBRC    &kp RBRC  &kp N7  &kp N8  &kp N9  &kp KP_PLUS
+         &trans   &kp LEFT           &kp DOWN    &kp RIGHT        &kp LBKT    &kp RBKT  &kp N4  &kp N5  &kp N6  &kp KP_MINUS
+&kp ESC  &kp DEL  &kp K_CUT          &kp K_COPY  &kp K_PASTE      &kp LPAR    &kp RPAR  &kp N1  &kp N2  &kp N3  &kp KP_MULTIPLY  &kp EQUAL
+                                     &trans      &trans           &trans      &trans    &trans  &kp N0
             >;
         };
 
