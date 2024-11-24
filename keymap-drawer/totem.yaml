@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: totem}
 layers:
-  base:
+  BASE:
   - Q
   - W
   - E
@@ -33,15 +33,15 @@ layers:
   - .
   - /
   - ;
-  - {t: ESC, h: sim}
-  - {t: BACKSPACE, h: nav}
+  - {t: ESC, h: SYM}
+  - {t: BACKSPACE, h: NAVI}
   - TAB
   - RET
   - SPACE
   - {t: ▽, type: trans}
-  nav:
-  - ESC
+  NAVI:
   - {t: ▽, type: trans}
+  - PG UP
   - UP
   - {t: ▽, type: trans}
   - '{'
@@ -60,11 +60,11 @@ layers:
   - '5'
   - '6'
   - KP MINUS
-  - {t: ▽, type: trans}
+  - ESC
   - DEL
-  - PG UP
-  - CAPS
-  - PG DN
+  - CUT
+  - COPY
+  - PASTE
   - (
   - )
   - '1'
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  sim:
+  SYM:
   - '!'
   - '@'
   - '#'
@@ -99,7 +99,7 @@ layers:
   - AGr+ 5
   - AGr+ 4
   - AGr+ O
-  - {t: ▽, type: trans}
+  - ESC
   - Sft+Ctl+Gui+ C
   - {t: ▽, type: trans}
   - Gui+ '
