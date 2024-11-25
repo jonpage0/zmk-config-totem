@@ -31,6 +31,13 @@
             require-prior-idle-ms = <225>;
             flavor = "tap-preferred";
         };
+
+        e_heart: e_heart {
+            compatible = "zmk,behavior-send-string";
+            label = "E_HEART";
+            #binding-cells = <0>;
+            text = "♥️";
+        };
     };
 
     keymap {
@@ -55,10 +62,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q               &kp W           &kp E        &kp R             &kp T        &kp Y    &kp U              &kp I          &kp O            &kp P
-                    &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D  &hr LEFT_SHIFT F  &kp G        &kp H    &hr RIGHT_SHIFT J  &hr RCTRL K    &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
-&mt LEFT_SHIFT ESC  &kp Z               &kp X           &kp C        &kp V             &kp B        &kp N    &kp M              &kp COMMA      &kp DOT          &kp FSLH            &kp SEMI
-                                                        &lt 3 ESC    &lt 1 BACKSPACE   &lt 2 TAB    &kp RET  &kp SPACE          &kp BACKSPACE
+        &kp Q               &kp W           &kp E        &kp R             &kp T        &kp Y    &kp U              &kp I            &kp O            &kp P
+        &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D  &hr LEFT_SHIFT F  &kp G        &kp H    &hr RIGHT_SHIFT J  &hr RCTRL K      &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
+&trans  &kp Z               &kp X           &kp C        &kp V             &kp B        &kp N    &kp M              &kp COMMA        &kp DOT          &kp FSLH            &kp SEMI
+                                            &lt 3 ESC    &lt 1 BACKSPACE   &lt 2 TAB    &kp RET  &kp SPACE          &lt 4 BACKSPACE
             >;
         };
 
@@ -88,10 +95,10 @@
 
         nav {
             bindings = <
-        &trans  &trans  &kp LC(UP)     &kp F11          &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &kp LG(LC(S))  &kp LG(LC(D))    &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LC(DOWN)   &kp LG(LS(F11))  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans         &trans           &trans    &trans  &trans  &trans
+        &trans  &trans  &kp LC(UP)     &kp F11          &trans    &mwh SCROLL_UP    &trans  &trans  &trans  &trans
+        &trans  &trans  &kp LG(LC(S))  &kp LG(LC(D))    &trans    &mwh SCROLL_DOWN  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LC(DOWN)   &kp LG(LS(F11))  &trans    &trans            &trans  &trans  &trans  &trans  &trans
+                        &trans         &trans           &trans    &trans            &trans  &trans
             >;
         };
 
@@ -116,6 +123,15 @@
         &trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans            &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans      &kp C_PP      &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
                             &trans        &trans        &trans            &trans  &trans  &trans
+            >;
+        };
+
+        emoji {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &e_heart  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
 
