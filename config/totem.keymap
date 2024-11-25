@@ -38,7 +38,7 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        base_layer {
+        base {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "BASE";
@@ -55,16 +55,14 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q               &kp W           &kp E        &kp R             &kp T      &kp Y    &kp U              &kp I        &kp O            &kp P
-                    &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D  &hr LEFT_SHIFT F  &kp G      &kp H    &hr RIGHT_SHIFT J  &hr RCTRL K  &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
-&mt LEFT_SHIFT ESC  &kp Z               &kp X           &kp C        &kp V             &kp B      &kp N    &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
-                                                        &lt 2 ESC    &lt 1 BACKSPACE   &kp TAB    &kp RET  &kp SPACE          &trans
+                    &kp Q               &kp W           &kp E        &kp R             &kp T        &kp Y    &kp U              &kp I          &kp O            &kp P
+                    &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D  &hr LEFT_SHIFT F  &kp G        &kp H    &hr RIGHT_SHIFT J  &hr RCTRL K    &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
+&mt LEFT_SHIFT ESC  &kp Z               &kp X           &kp C        &kp V             &kp B        &kp N    &kp M              &kp COMMA      &kp DOT          &kp FSLH            &kp SEMI
+                                                        &lt 3 ESC    &lt 1 BACKSPACE   &lt 2 TAB    &kp RET  &kp SPACE          &kp BACKSPACE
             >;
         };
 
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-
-        nav_layer {
+        num {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "NAVI";
@@ -81,16 +79,23 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &trans   &kp K_SCROLL_DOWN  &kp UP      &kp K_SCROLL_UP  &kp LBRC    &kp RBRC  &kp N7  &kp N8  &kp N9  &kp KP_PLUS
-         &trans   &kp LEFT           &kp DOWN    &kp RIGHT        &kp LBKT    &kp RBKT  &kp N4  &kp N5  &kp N6  &kp KP_MINUS
-&kp ESC  &kp DEL  &kp K_CUT          &kp K_COPY  &kp K_PASTE      &kp LPAR    &kp RPAR  &kp N1  &kp N2  &kp N3  &kp KP_MULTIPLY  &kp EQUAL
-                                     &trans      &trans           &trans      &trans    &trans  &kp N0
+        &kp EXCLAMATION  &kp AT              &kp HASH          &kp DOLLAR              &kp PERCENT    &kp AMPERSAND  &kp N7        &kp N8  &kp N9  &kp KP_MULTIPLY
+        &hr LGUI A       &hr LEFT_ALT K_CUT  &hr LCTRL K_COPY  &hr LEFT_SHIFT K_PASTE  &trans         &kp N0         &kp N4        &kp N5  &kp N6  &kp KP_MINUS
+&trans  &trans           &trans              &kp K_UNDO        &kp K_REDO              &trans         &kp N0         &kp NUMBER_1  &kp N2  &kp N3  &kp KP_PLUS      &kp EQUAL
+                                             &trans            &trans                  &trans         &trans         &trans        &trans
             >;
         };
 
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        nav {
+            bindings = <
+        &trans  &trans  &kp LC(UP)     &kp F11          &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &kp LG(LC(S))  &kp LG(LC(D))    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LC(DOWN)   &kp LG(LS(F11))  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans         &trans           &trans    &trans  &trans  &trans
+            >;
+        };
 
-        sim_layer {
+        media {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "SYM";
@@ -107,10 +112,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp EXCL           &kp AT         &kp HASH     &kp C_PREV        &kp C_NEXT      &kp DOLLAR    &kp AMPS          &kp RA(U)   &kp SQT     &kp DQT
-         &kp LC(LG(S))      &kp LC(LG(D))  &kp RA(S)    &kp C_PLAY_PAUSE  &kp C_MUTE      &kp C_MUTE    &kp C_PLAY_PAUSE  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&kp ESC  &kp LS(LC(LG(C)))  &trans         &kp LG(SQT)  &kp C_VOL_DN      &kp C_VOL_UP    &kp C_VOL_DN  &kp C_VOL_UP      &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
-                                           &trans       &trans            &trans          &trans        &trans            &trans
+        &trans  &trans      &kp K_PREV    &kp C_NEXT    &kp C_AL_MUSIC    &trans  &trans  &trans  &trans  &trans
+        &trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans            &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans      &kp C_PP      &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans        &trans        &trans            &trans  &trans  &trans
             >;
         };
 
