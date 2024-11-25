@@ -35,81 +35,120 @@ layers:
   - ;
   - {t: ESC, h: SYM}
   - {t: BACKSPACE, h: NAVI}
-  - TAB
+  - {t: TAB, h: nav}
   - RET
   - SPACE
-  - {t: ▽, type: trans}
+  - BACKSPACE
   NAVI:
-  - {t: ▽, type: trans}
-  - SCROLL DOWN
-  - UP
-  - SCROLL UP
-  - '{'
-  - '}'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - '&'
   - '7'
   - '8'
   - '9'
-  - KP PLUS
+  - KP MULTIPLY
+  - {t: A, h: LGUI}
+  - {t: CUT, h: LEFT ALT}
+  - {t: COPY, h: LCTRL}
+  - {t: PASTE, h: LEFT SHIFT}
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - '['
-  - ']'
+  - '0'
   - '4'
   - '5'
   - '6'
   - KP MINUS
-  - ESC
-  - DEL
-  - CUT
-  - COPY
-  - PASTE
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UNDO
+  - REDO
+  - {t: ▽, type: trans}
+  - '0'
   - '1'
   - '2'
   - '3'
-  - KP MULTIPLY
+  - KP PLUS
   - '='
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
-  SYM:
-  - '!'
-  - '@'
-  - '#'
-  - PREV
-  - NEXT
-  - $
-  - '&'
-  - AGr+ U
-  - ''''
-  - '"'
-  - Ctl+Gui+ S
-  - Ctl+Gui+ D
-  - AGr+ S
-  - PLAY PAUSE
-  - MUTE
-  - MUTE
-  - PLAY PAUSE
-  - AGr+ 5
-  - AGr+ 4
-  - AGr+ O
-  - ESC
-  - Sft+Ctl+Gui+ C
   - {t: ▽, type: trans}
-  - Gui+ '
-  - VOL DN
-  - VOL UP
-  - VOL DN
-  - VOL UP
+  nav:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+ UP
+  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Ctl+ S
+  - Gui+Ctl+ D
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+ DOWN
+  - Gui+Sft+ F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - PREV
   - NEXT
-  - \
+  - AL MUSIC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
