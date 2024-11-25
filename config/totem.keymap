@@ -95,8 +95,8 @@
 
         nav {
             bindings = <
-        &trans  &trans  &kp LC(UP)     &kp F11          &trans    &mwh SCROLL_UP    &trans  &trans  &trans  &trans
-        &trans  &trans  &kp LG(LC(S))  &kp LG(LC(D))    &trans    &mwh SCROLL_DOWN  &trans  &trans  &trans  &trans
+        &trans  &trans  &kp LC(UP)     &kp F11          &trans    &msc SCROLL_UP    &trans  &trans  &trans  &trans
+        &trans  &trans  &kp LG(LC(S))  &kp LG(LC(D))    &trans    &msc SCROLL_DOWN  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &kp LC(DOWN)   &kp LG(LS(F11))  &trans    &trans            &trans  &trans  &trans  &trans  &trans
                         &trans         &trans           &trans    &trans            &trans  &trans
             >;
