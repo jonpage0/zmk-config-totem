@@ -84,7 +84,7 @@ layers:
   - Ctl+ UP
   - F11
   - {t: ▽, type: trans}
-  - '&msc SCROLL_UP'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,7 +94,7 @@ layers:
   - Gui+Ctl+ S
   - Gui+Ctl+ D
   - {t: ▽, type: trans}
-  - '&msc SCROLL_DOWN'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&e_heart'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
