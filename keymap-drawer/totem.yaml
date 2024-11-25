@@ -84,7 +84,7 @@ layers:
   - Ctl+ UP
   - F11
   - {t: ▽, type: trans}
-  - '&mwh SCROLL_UP'
+  - '&msc SCROLL_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,7 +94,7 @@ layers:
   - Gui+Ctl+ S
   - Gui+Ctl+ D
   - {t: ▽, type: trans}
-  - '&mwh SCROLL_DOWN'
+  - '&msc SCROLL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
