@@ -41,7 +41,7 @@
         base {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "BASE";
+            label = "base";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -55,17 +55,17 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp Q               &kp W           &kp E        &kp R             &kp T        &kp Y    &kp U              &kp I            &kp O            &kp P
-        &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D  &hr LEFT_SHIFT F  &kp G        &kp H    &hr RIGHT_SHIFT J  &hr RCTRL K      &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
-&trans  &kp Z               &kp X           &kp C        &kp V             &kp B        &kp N    &kp M              &kp COMMA        &kp DOT          &kp FSLH            &kp SEMI
-                                            &lt 3 ESC    &lt 1 BACKSPACE   &lt 2 TAB    &kp RET  &kp SPACE          &lt 4 BACKSPACE
+                       &kp Q               &kp W           &kp E        &kp R             &kp T        &kp Y    &kp U              &kp I            &kp O            &kp P
+                       &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D  &hr LEFT_SHIFT F  &kp G        &kp H    &hr RIGHT_SHIFT J  &hr RCTRL K      &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
+&kp LS(LA(LC(LG(H))))  &kp Z               &kp X           &kp C        &kp V             &kp B        &kp N    &kp M              &kp COMMA        &kp DOT          &kp FSLH            &kp SEMI
+                                                           &lt 4 ESC    &lt 1 BACKSPACE   &lt 2 TAB    &kp RET  &kp SPACE          &lt 5 BACKSPACE
             >;
         };
 
         num {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "NAVI";
+            label = "num";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -86,13 +86,26 @@
             >;
         };
 
+        pro {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans                &trans
+            >;
+
+            label = "pro";
+        };
+
         nav {
             bindings = <
-        &trans  &trans  &kp LC(UP)     &kp F11          &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &kp LG(LC(S))  &kp LG(LC(D))    &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LC(DOWN)   &kp LG(LS(F11))  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans         &trans           &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans
+        &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
+                        &trans  &trans  &trans    &trans    &trans    &trans
             >;
+
+            label = "nav";
         };
 
         media {
