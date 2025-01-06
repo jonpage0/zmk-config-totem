@@ -36,8 +36,8 @@ layers:
   - {t: Hyper+H, h: pro}
   - {t: SPACE, h: num}
   - {t: TAB, h: navm}
-  - RET
-  - {t: BACKSPACE, h: pro}
+  - {t: ENTER, h: pro}
+  - BACKSPACE
   - {t: DEL, h: emoji}
   num:
   - '!'
