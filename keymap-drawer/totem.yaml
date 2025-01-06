@@ -34,11 +34,11 @@ layers:
   - /
   - ;
   - {t: Hyper+H, h: pro}
-  - {t: BACKSPACE, h: num}
+  - {t: SPACE, h: num}
   - {t: TAB, h: navm}
   - RET
-  - {t: SPACE, h: pro}
-  - {t: BACKSPACE, h: emoji}
+  - {t: BACKSPACE, h: pro}
+  - {t: DEL, h: emoji}
   num:
   - '!'
   - '@'
