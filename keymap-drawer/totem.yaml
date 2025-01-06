@@ -81,19 +81,19 @@ layers:
   navm:
   - Hyper+ Q
   - Hyper+ W
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - PREV
-  - NEXT
-  - AL MUSIC
   - Hyper+ Y
   - Hyper+ U
   - Hyper+ I
   - Hyper+ O
   - Hyper+ P
-  - {t: STOP, h: LEFT GUI}
-  - {t: MUTE, h: LEFT ALT}
-  - {t: VOL DN, h: LCTRL}
-  - {t: VOL UP, h: LEFT SHIFT}
-  - {t: ▽, type: trans}
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LEFT SHIFT}
+  - NEXT
   - LEFT
   - DOWN
   - UP ARROW
@@ -101,10 +101,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - PLAY PAUSE
   - Hyper+ N
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
