@@ -33,7 +33,7 @@ layers:
   - .
   - /
   - ;
-  - {t: Hyper+ H, h: pro}
+  - {t: Hyper+H, h: pro}
   - {t: BACKSPACE, h: num}
   - {t: TAB, h: navm}
   - RET
@@ -50,10 +50,10 @@ layers:
   - '8'
   - '9'
   - KP MULTIPLY
-  - {t: Hyper+ A, h: LEFT COMMAND}
-  - {t: Gui+ X, h: LEFT ALT}
-  - {t: Gui+ C, h: LCTRL}
-  - {t: Gui+ V, h: LEFT SHIFT}
+  - {t: Hyper+A, h: LEFT COMMAND}
+  - {t: Gui+X, h: LEFT ALT}
+  - {t: Gui+C, h: LCTRL}
+  - {t: Gui+V, h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - '0'
   - '4'
@@ -63,8 +63,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ Z
-  - Gui+Sft+ Z
+  - Gui+Z
+  - Gui+Sft+Z
   - {t: ▽, type: trans}
   - '0'
   - '1'
@@ -79,19 +79,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   navm:
-  - Hyper+ Q
+  - Hyper+Q
   - PLAY PAUSE
   - PREV
   - NEXT
   - {t: ▽, type: trans}
-  - Hyper+ Y
-  - Hyper+ U
-  - Hyper+ I
-  - Hyper+ O
-  - Hyper+ P
+  - Hyper+Y
+  - Hyper+U
+  - Hyper+I
+  - Hyper+O
+  - Hyper+P
   - {t: A, h: LEFT GUI}
   - {t: MUTE, h: LEFT ALT}
-  - {t: VOL UP, h: LCTRL}
+  - {t: VOL DN, h: LCTRL}
   - {t: VOL UP, h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - LEFT
@@ -105,7 +105,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Hyper+ N
+  - Hyper+N
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
