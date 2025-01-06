@@ -89,10 +89,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - MUTE
-  - VOL DN
-  - VOL UP
+  - {t: STOP, h: LEFT GUI}
+  - {t: MUTE, h: LEFT ALT}
+  - {t: VOL DN, h: LCTRL}
+  - {t: VOL UP, h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
