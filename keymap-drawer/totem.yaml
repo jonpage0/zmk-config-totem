@@ -50,7 +50,7 @@ layers:
   - '8'
   - '9'
   - KP MULTIPLY
-  - {t: A, h: LGUI}
+  - {t: Hyper+ A, h: LEFT COMMAND}
   - {t: CUT, h: LEFT ALT}
   - {t: COPY, h: LCTRL}
   - {t: PASTE, h: LEFT SHIFT}
@@ -79,8 +79,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   navm:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Hyper+ Q
+  - Hyper+ W
   - PREV
   - NEXT
   - AL MUSIC
@@ -105,7 +105,7 @@ layers:
   - PP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Hyper+ N
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
