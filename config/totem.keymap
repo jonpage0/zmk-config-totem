@@ -103,10 +103,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans               &trans               &kp K_PREV          &kp C_NEXT               &kp C_AL_MUSIC    &trans    &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))
-        &hr LEFT_GUI C_STOP  &hr LEFT_ALT C_MUTE  &hr LCTRL C_VOL_DN  &hr LEFT_SHIFT C_VOL_UP  &trans            &kp LEFT  &kp DOWN               &kp UP_ARROW           &kp RIGHT              &trans
-&trans  &trans               &trans               &kp C_PP            &trans                   &trans            &trans    &trans                 &trans                 &trans                 &trans                 &trans
-                                                  &trans              &trans                   &trans            &trans    &trans                 &trans
+        &trans               &trans               &kp K_PREV          &kp C_NEXT               &kp C_AL_MUSIC    &kp LS(LA(LG(LC(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))
+        &hr LEFT_GUI C_STOP  &hr LEFT_ALT C_MUTE  &hr LCTRL C_VOL_DN  &hr LEFT_SHIFT C_VOL_UP  &trans            &kp LEFT               &kp DOWN               &kp UP_ARROW           &kp RIGHT              &trans
+&trans  &trans               &trans               &kp C_PP            &trans                   &trans            &trans                 &trans                 &trans                 &trans                 &trans                 &trans
+                                                  &trans              &trans                   &trans            &trans                 &trans                 &trans
             >;
         };
 
