@@ -55,10 +55,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q               &kp W           &kp E                    &kp R             &kp T        &kp Y    &kp U              &kp I        &kp O            &kp P
-            &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D              &hr LEFT_SHIFT F  &kp G        &kp H    &hr RIGHT_SHIFT J  &hr RCTRL K  &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
-&kp ESCAPE  &kp Z               &kp X           &kp C                    &kp V             &kp B        &kp N    &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
-                                                &lt 3 LS(LA(LC(LG(H))))  &lt 1 SPACE       &lt 2 TAB    &kp RET  &lt 3 BACKSPACE    &lt 4 DEL
+            &kp Q               &kp W           &kp E                    &kp R             &kp T        &kp Y        &kp U              &kp I        &kp O            &kp P
+            &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D              &hr LEFT_SHIFT F  &kp G        &kp H        &hr RIGHT_SHIFT J  &hr RCTRL K  &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
+&kp ESCAPE  &kp Z               &kp X           &kp C                    &kp V             &kp B        &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
+                                                &lt 3 LS(LA(LC(LG(H))))  &lt 1 SPACE       &lt 2 TAB    &lt 3 ENTER  &kp BACKSPACE      &lt 4 DEL
             >;
         };
 
