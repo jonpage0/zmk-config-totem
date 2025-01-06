@@ -51,9 +51,9 @@ layers:
   - '9'
   - KP MULTIPLY
   - {t: Hyper+ A, h: LEFT COMMAND}
-  - {t: CUT, h: LEFT ALT}
-  - {t: COPY, h: LCTRL}
-  - {t: PASTE, h: LEFT SHIFT}
+  - {t: Gui+ X, h: LEFT ALT}
+  - {t: Gui+ C, h: LCTRL}
+  - {t: Gui+ V, h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - '0'
   - '4'
@@ -63,8 +63,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UNDO
-  - REDO
+  - Gui+ Z
+  - Gui+Sft+ Z
   - {t: ▽, type: trans}
   - '0'
   - '1'
