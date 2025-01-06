@@ -85,10 +85,10 @@ layers:
   - NEXT
   - AL MUSIC
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Hyper+ U
+  - Hyper+ I
+  - Hyper+ O
+  - Hyper+ P
   - {t: STOP, h: LEFT GUI}
   - {t: MUTE, h: LEFT ALT}
   - {t: VOL DN, h: LCTRL}
