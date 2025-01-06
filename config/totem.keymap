@@ -103,10 +103,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LS(LA(LG(LC(Q))))  &kp LS(LA(LC(LG(W))))  &kp K_PREV          &kp C_NEXT               &kp C_AL_MUSIC    &kp LS(LA(LG(LC(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))
-        &hr LEFT_GUI C_STOP    &hr LEFT_ALT C_MUTE    &hr LCTRL C_VOL_DN  &hr LEFT_SHIFT C_VOL_UP  &trans            &kp LEFT               &kp DOWN               &kp UP_ARROW           &kp RIGHT              &trans
-&trans  &trans                 &trans                 &kp C_PP            &trans                   &trans            &kp LS(LA(LC(LG(N))))  &trans                 &trans                 &trans                 &trans                 &trans
-                                                      &trans              &trans                   &trans            &trans                 &trans                 &trans
+        &kp LS(LA(LG(LC(Q))))  &kp LS(LA(LC(LG(W))))  &trans        &trans            &kp C_PREV          &kp LS(LA(LG(LC(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))
+        &hr LEFT_GUI A         &hr LEFT_ALT S         &hr LCTRL D   &hr LEFT_SHIFT F  &kp C_NEXT          &kp LEFT               &kp DOWN               &kp UP_ARROW           &kp RIGHT              &trans
+&trans  &trans                 &kp K_MUTE             &kp C_VOL_DN  &kp C_VOL_UP      &kp C_PLAY_PAUSE    &kp LS(LA(LC(LG(N))))  &trans                 &trans                 &trans                 &trans                 &trans
+                                                      &trans        &trans            &trans              &trans                 &trans                 &trans
             >;
         };
 
