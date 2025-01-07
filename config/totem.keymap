@@ -18,7 +18,54 @@
 #define SYM  2
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        left-space {
+            bindings = <&kp SPACE>;
+            key-positions = <34 33>;
+        };
+
+        right-paren {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <16 6>;
+        };
+
+        right-bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <17 7>;
+        };
+
+        right-brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <18 8>;
+        };
+
+        left-paren {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <13 3>;
+        };
+
+        left-bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <12 2>;
+        };
+
+        left-brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <11 1>;
+        };
+
+        greater-than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <16 27>;
+        };
+
+        less-than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <13 24>;
+        };
+    };
 
     behaviors {
         hr: hr {
@@ -58,7 +105,31 @@
             &kp Q               &kp W           &kp E                    &kp R             &kp T        &kp Y        &kp U              &kp I        &kp O            &kp P
             &hr LEFT_COMMAND A  &hr LEFT_ALT S  &hr LCTRL D              &hr LEFT_SHIFT F  &kp G        &kp H        &hr RIGHT_SHIFT J  &hr RCTRL K  &hr RIGHT_ALT L  &hr RIGHT_GUI APOS
 &kp ESCAPE  &kp Z               &kp X           &kp C                    &kp V             &kp B        &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp SEMI
-                                                &lt 3 LS(LA(LC(LG(H))))  &lt 1 SPACE       &lt 2 TAB    &lt 3 ENTER  &kp BACKSPACE      &lt 4 DEL
+                                                &lt 3 LS(LA(LC(LG(H))))  &lt 1 BACKSPACE   &lt 2 TAB    &lt 3 ENTER  &kp SPACE          &lt 4 DEL
+            >;
+        };
+
+        navm {
+            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+            label = "navm";
+
+            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
+            //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
+            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
+            //             ┃     Ä     ┃           ┃    SZ     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
+            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
+            // ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃           ┃
+            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+            //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
+            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+
+            bindings = <
+        &kp LS(LA(LG(LC(Q))))  &kp C_PLAY_PAUSE     &kp C_PREV          &kp C_NEXT               &trans    &kp LS(LA(LG(LC(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))
+        &hr LEFT_GUI A         &hr LEFT_ALT K_MUTE  &hr LCTRL C_VOL_DN  &hr LEFT_SHIFT C_VOL_UP  &trans    &kp LEFT               &kp DOWN               &kp UP_ARROW           &kp RIGHT              &kp LS(LC(LA(LG(SINGLE_QUOTE))))
+&trans  &trans                 &kp LG(Z)            &kp LG(C)           &kp LG(V)                &trans    &kp LS(LA(LC(LG(N))))  &trans                 &trans                 &trans                 &kp LS(LA(LC(LG(SLASH))))         &trans
+                                                    &trans              &trans                   &trans    &trans                 &trans                 &trans
             >;
         };
 
@@ -83,30 +154,6 @@
         &hr LEFT_COMMAND LS(LA(LC(LG(A))))  &hr LEFT_ALT LG(X)  &hr LCTRL LG(C)  &hr LEFT_SHIFT LG(V)  &trans         &kp N0         &kp N4        &kp N5  &kp N6  &kp KP_MINUS
 &trans  &trans                              &trans              &kp LG(Z)        &kp LG(LS(Z))         &trans         &kp N0         &kp NUMBER_1  &kp N2  &kp N3  &kp KP_PLUS      &kp EQUAL
                                                                 &trans           &trans                &trans         &trans         &trans        &trans
-            >;
-        };
-
-        navm {
-            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-
-            label = "navm";
-
-            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
-            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃     Ä     ┃           ┃    SZ     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
-            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃           ┃
-            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
-            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-
-            bindings = <
-        &kp LS(LA(LG(LC(Q))))  &kp C_PLAY_PAUSE     &kp C_PREV          &kp C_NEXT               &trans    &kp LS(LA(LG(LC(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))
-        &hr LEFT_GUI A         &hr LEFT_ALT K_MUTE  &hr LCTRL C_VOL_DN  &hr LEFT_SHIFT C_VOL_UP  &trans    &kp LEFT               &kp DOWN               &kp UP_ARROW           &kp RIGHT              &trans
-&trans  &trans                 &trans               &trans              &trans                   &trans    &kp LS(LA(LC(LG(N))))  &trans                 &trans                 &trans                 &trans                 &trans
-                                                    &trans              &trans                   &trans    &trans                 &trans                 &trans
             >;
         };
 
