@@ -34,11 +34,50 @@ layers:
   - /
   - ;
   - {t: Hyper+H, h: pro}
-  - {t: SPACE, h: num}
-  - {t: TAB, h: navm}
+  - {t: BACKSPACE, h: navm}
+  - {t: TAB, h: num}
   - {t: ENTER, h: pro}
-  - BACKSPACE
+  - SPACE
   - {t: DEL, h: emoji}
+  navm:
+  - Hyper+Q
+  - PLAY PAUSE
+  - PREV
+  - NEXT
+  - {t: ▽, type: trans}
+  - Hyper+Y
+  - Hyper+U
+  - Hyper+I
+  - Hyper+O
+  - Hyper+P
+  - {t: A, h: LEFT GUI}
+  - {t: MUTE, h: LEFT ALT}
+  - {t: VOL DN, h: LCTRL}
+  - {t: VOL UP, h: LEFT SHIFT}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP ARROW
+  - RIGHT
+  - Hyper+'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+C
+  - Gui+V
+  - {t: ▽, type: trans}
+  - Hyper+N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Hyper+/
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   num:
   - '!'
   - '@'
@@ -72,45 +111,6 @@ layers:
   - '3'
   - KP PLUS
   - '='
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  navm:
-  - Hyper+Q
-  - PLAY PAUSE
-  - PREV
-  - NEXT
-  - {t: ▽, type: trans}
-  - Hyper+Y
-  - Hyper+U
-  - Hyper+I
-  - Hyper+O
-  - Hyper+P
-  - {t: A, h: LEFT GUI}
-  - {t: MUTE, h: LEFT ALT}
-  - {t: VOL DN, h: LCTRL}
-  - {t: VOL UP, h: LEFT SHIFT}
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - UP ARROW
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Hyper+N
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -195,3 +195,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+combos:
+- p: [34, 33]
+  k: SPACE
+- p: [16, 6]
+  k: )
+- p: [17, 7]
+  k: ']'
+- p: [18, 8]
+  k: '}'
+- p: [13, 3]
+  k: (
+- p: [12, 2]
+  k: '['
+- p: [11, 1]
+  k: '{'
+- p: [16, 27]
+  k: '>'
+- p: [13, 24]
+  k: <
