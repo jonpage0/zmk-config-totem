@@ -105,7 +105,7 @@
             &kp Q               &kp W           &kp E                    &kp R               &kp T        &kp Y        &kp U                &kp I              &kp O            &kp P
             &hr LEFT_CONTROL A  &hr LEFT_ALT S  &hr LEFT_SHIFT D         &hr LEFT_COMMAND F  &kp G        &kp H        &hr RIGHT_COMMAND J  &hr RIGHT_SHIFT K  &hr RIGHT_ALT L  &hr RIGHT_CONTROL APOS
 &kp ESCAPE  &kp Z               &kp X           &kp C                    &kp V               &kp B        &kp N        &kp M                &kp COMMA          &kp DOT          &kp FSLH                &kp SEMI
-                                                &lt 3 LS(LA(LC(LG(H))))  &lt 1 BACKSPACE     &lt 2 TAB    &lt 3 ENTER  &lt 3 SPACE          &lt 4 DEL
+                                                &lt 2 LS(LA(LC(LG(H))))  &lt 1 BACKSPACE     &lt 2 TAB    &lt 3 ENTER  &lt 3 SPACE          &lt 4 DEL
             >;
         };
 
