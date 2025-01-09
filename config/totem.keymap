@@ -150,10 +150,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans                              &kp PERCENT               &kp CARET                  &kp AMPERSAND        &kp ASTERISK    &kp KP_DIVIDE    &kp N7        &kp N8  &kp N9  &kp KP_MINUS
-        &hr LEFT_COMMAND LS(LA(LC(LG(A))))  &hr LEFT_ALT EXCLAMATION  &hr RIGHT_CONTROL AT_SIGN  &hr LEFT_SHIFT HASH  &kp DOLLAR      &kp KP_MULTIPLY  &kp N4        &kp N5  &kp N6  &kp KP_PLUS
-&trans  &trans                              &trans                    &trans                     &trans               &trans          &kp KP_CLEAR     &kp NUMBER_1  &kp N2  &kp N3  &kp KP_EQUAL  &trans
-                                                                      &trans                     &trans               &trans          &trans           &trans        &kp N0
+        &kp CARET                     &kp AMPERSAND         &kp ASTERISK            &kp TILDE              &kp GRAVE      &kp KP_DIVIDE    &kp N7        &kp N8  &kp N9  &kp KP_MINUS
+        &hr LEFT_COMMAND EXCLAMATION  &hr LEFT_ALT AT_SIGN  &hr RIGHT_CONTROL HASH  &hr LEFT_SHIFT DOLLAR  &kp PERCENT    &kp KP_MULTIPLY  &kp N4        &kp N5  &kp N6  &kp KP_PLUS
+&trans  &trans                        &trans                &trans                  &trans                 &trans         &kp KP_CLEAR     &kp NUMBER_1  &kp N2  &kp N3  &kp KP_EQUAL  &trans
+                                                            &trans                  &trans                 &trans         &trans           &trans        &kp N0
             >;
         };
 
