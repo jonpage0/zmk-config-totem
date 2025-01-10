@@ -68,7 +68,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <12 33>;
+            key-positions = <33 14>;
         };
     };
 
