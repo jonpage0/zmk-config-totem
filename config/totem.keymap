@@ -155,10 +155,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp CARET               &kp AMPERSAND             &kp ASTERISK              &kp DOLLAR           &trans         &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
-        &hr LEFT_CONTROL TILDE  &hr LEFT_ALT EXCLAMATION  &hr LEFT_COMMAND AT_SIGN  &hr LEFT_SHIFT HASH  &kp PERCENT    &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
-&trans  &kp GRAVE               &trans                    &trans                    &trans               &trans         &kp KP_DIVIDE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_CLEAR  &kp KP_EQUAL
-                                                          &trans                    &trans               &trans         &trans           &trans           &kp N0
+        &kp CARET                     &kp AMPERSAND         &kp ASTERISK           &kp PERCENT            &trans    &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
+        &hr LEFT_CONTROL EXCLAMATION  &hr LEFT_ALT AT_SIGN  &hr LEFT_COMMAND HASH  &hr LEFT_SHIFT DOLLAR  &trans    &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&trans  &kp GRAVE                     &trans                &trans                 &trans                 &trans    &kp KP_DIVIDE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_CLEAR  &kp KP_EQUAL
+                                                            &trans                 &trans                 &trans    &trans           &trans           &kp N0
             >;
         };
 
