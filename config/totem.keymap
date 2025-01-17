@@ -131,10 +131,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LS(LA(LG(LC(Q))))   &kp C_PLAY_PAUSE    &kp C_PREVIOUS          &kp C_NEXT            &trans    &kp LS(LA(LG(LC(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))
-        &hr LEFT_CONTROL LG(Z)  &hr LEFT_ALT LG(X)  &hr LEFT_COMMAND LG(C)  &hr LEFT_SHIFT LG(V)  &trans    &kp LEFT               &kp DOWN               &kp UP_ARROW           &kp RIGHT              &kp LS(LC(LA(LG(SINGLE_QUOTE))))
-&trans  &kp LS(LG(Z))           &kp K_MUTE          &kp C_VOLUME_DOWN       &kp C_VOLUME_UP       &trans    &kp LS(LA(LC(LG(N))))  &kp LS(LC(LA(LG(M))))  &kp HOME               &kp END                &kp LS(LA(LC(LG(SLASH))))         &trans
-                                                    &trans                  &trans                &trans    &trans                 &trans                 &trans
+                       &kp LS(LG(Z))           &kp C_PLAY_PAUSE    &kp C_PREVIOUS          &kp C_NEXT            &trans    &kp LS(LA(LG(LC(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))
+                       &hr LEFT_CONTROL LG(A)  &hr LEFT_ALT LG(X)  &hr LEFT_COMMAND LG(C)  &hr LEFT_SHIFT LG(V)  &trans    &kp LEFT               &kp DOWN               &kp UP_ARROW           &kp RIGHT              &kp LS(LC(LA(LG(SINGLE_QUOTE))))
+&kp LS(LG(LA(LC(Q))))  &kp LG(Z)               &kp K_MUTE          &kp C_VOLUME_DOWN       &kp C_VOLUME_UP       &trans    &kp LS(LA(LC(LG(N))))  &kp LS(LC(LA(LG(M))))  &kp HOME               &kp END                &kp LS(LA(LC(LG(SLASH))))         &trans
+                                                                   &trans                  &trans                &trans    &trans                 &trans                 &trans
             >;
         };
 
