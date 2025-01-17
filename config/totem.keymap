@@ -107,10 +107,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q               &kp W           &kp E                    &kp R             &kp T        &kp Y        &kp U              &kp I               &kp O            &kp P
-            &hr LEFT_CONTROL A  &hr LEFT_ALT S  &hr LEFT_COMMAND D       &hr LEFT_SHIFT F  &kp G        &kp H        &hr RIGHT_SHIFT J  &hr LEFT_COMMAND K  &hr RIGHT_ALT L  &hr RIGHT_CONTROL APOS
-&kp ESCAPE  &kp Z               &kp X           &kp C                    &kp V             &kp B        &kp N        &kp M              &kp COMMA           &kp DOT          &kp FSLH                &kp SEMI
-                                                &lt 4 LS(LA(LC(LG(H))))  &lt 1 BACKSPACE   &lt 2 TAB    &lt 3 ENTER  &lt 3 SPACE        &lt 4 TAB
+            &kp Q               &kp W           &kp E                    &kp R             &kp T              &kp Y        &kp U              &kp I               &kp O            &kp P
+            &hr LEFT_CONTROL A  &hr LEFT_ALT S  &hr LEFT_COMMAND D       &hr LEFT_SHIFT F  &kp G              &kp H        &hr RIGHT_SHIFT J  &hr LEFT_COMMAND K  &hr RIGHT_ALT L  &hr RIGHT_CONTROL APOS
+&kp ESCAPE  &kp Z               &kp X           &kp C                    &kp V             &kp B              &kp N        &kp M              &kp COMMA           &kp DOT          &kp FSLH                &kp SEMI
+                                                &lt 4 LS(LA(LC(LG(H))))  &lt 1 TAB         &lt 2 BACKSPACE    &lt 3 SPACE  &lt 3 ENTER        &lt 4 TAB
             >;
         };
 
@@ -155,19 +155,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp CARET               &kp AMPERSAND             &kp ASTERISK              &kp DOLLAR           &trans         &kp KP_DIVIDE    &kp N7        &kp N8  &kp N9  &kp KP_MINUS
-        &hr LEFT_CONTROL TILDE  &hr LEFT_ALT EXCLAMATION  &hr LEFT_COMMAND AT_SIGN  &hr LEFT_SHIFT HASH  &kp PERCENT    &kp KP_MULTIPLY  &kp N4        &kp N5  &kp N6  &kp KP_PLUS
-&trans  &kp GRAVE               &trans                    &trans                    &trans               &trans         &kp KP_CLEAR     &kp NUMBER_1  &kp N2  &kp N3  &kp KP_EQUAL  &trans
-                                                          &trans                    &trans               &trans         &trans           &trans        &kp N0
+        &kp CARET               &kp AMPERSAND             &kp ASTERISK              &kp DOLLAR           &trans         &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
+        &hr LEFT_CONTROL TILDE  &hr LEFT_ALT EXCLAMATION  &hr LEFT_COMMAND AT_SIGN  &hr LEFT_SHIFT HASH  &kp PERCENT    &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&trans  &kp GRAVE               &trans                    &trans                    &trans               &trans         &kp KP_DIVIDE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_CLEAR  &kp KP_EQUAL
+                                                          &trans                    &trans               &trans         &trans           &trans           &kp N0
             >;
         };
 
         pro {
             bindings = <
-        &soft_off  &trans  &trans  &trans  &trans    &kp ASTERISK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS   &trans
-        &trans     &trans  &trans  &trans  &trans    &kp SLASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp LS(MINUS)
-&trans  &trans     &trans  &trans  &trans  &trans    &kp AT_SIGN   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL  &trans         &trans
-                           &trans  &trans  &trans    &trans        &trans                &trans
+        &soft_off           &trans                  &trans                         &kp PERCENT               &trans    &kp UNDERSCORE  &kp ASTERISK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS
+        &hr LEFT_CONTROL A  &hr LEFT_ALT LESS_THAN  &hr LEFT_COMMAND GREATER_THAN  &hr LEFT_SHIFT AMPERSAND  &trans    &kp AMPERSAND   &kp SLASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&trans  &trans              &trans                  &trans                         &kp PIPE                  &trans    &kp PIPE        &kp AT_SIGN   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL  &kp TILDE
+                                                    &trans                         &trans                    &trans    &trans          &trans        &trans
             >;
 
             label = "pro";
