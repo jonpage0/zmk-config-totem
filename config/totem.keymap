@@ -164,9 +164,9 @@
 
         pro {
             bindings = <
-        &soft_off           &trans                  &trans                         &kp PERCENT               &trans    &kp UNDERSCORE  &kp ASTERISK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS
-        &hr LEFT_CONTROL A  &hr LEFT_ALT LESS_THAN  &hr LEFT_COMMAND GREATER_THAN  &hr LEFT_SHIFT AMPERSAND  &trans    &kp AMPERSAND   &kp SLASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&trans  &trans              &trans                  &trans                         &kp PIPE                  &trans    &kp PIPE        &kp AT_SIGN   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL  &kp TILDE
+        &soft_off           &trans                  &trans                         &kp PERCENT               &trans    &kp PLUS        &kp ASTERISK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+        &hr LEFT_CONTROL A  &hr LEFT_ALT LESS_THAN  &hr LEFT_COMMAND GREATER_THAN  &hr LEFT_SHIFT AMPERSAND  &trans    &kp MINUS       &kp SLASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
+&trans  &trans              &trans                  &trans                         &trans                    &trans    &kp UNDERSCORE  &kp AT_SIGN   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp TILDE
                                                     &trans                         &trans                    &trans    &trans          &trans        &trans
             >;
 
