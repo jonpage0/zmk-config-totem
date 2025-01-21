@@ -21,11 +21,6 @@
     combos {
         compatible = "zmk,combos";
 
-        left-space {
-            bindings = <&kp SPACE>;
-            key-positions = <33 13>;
-        };
-
         right-paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <16 6>;
@@ -68,7 +63,12 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <33 14>;
+            key-positions = <13 12>;
+        };
+
+        left_space {
+            bindings = <&kp SPACE>;
+            key-positions = <11 12>;
         };
     };
 
@@ -164,10 +164,10 @@
 
         pro {
             bindings = <
-        &kp PIPE            &kp LESS_THAN   &kp GREATER_THAN    &kp TILDE         &trans    &kp AMPERSAND   &kp ASTERISK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS
-        &hr LEFT_CONTROL A  &hr LEFT_ALT S  &hr LEFT_COMMAND D  &hr LEFT_SHIFT F  &trans    &kp HASH        &kp SLASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&trans  &trans              &trans          &trans              &trans            &trans    &kp UNDERSCORE  &kp AT_SIGN   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp EQUAL
-                                            &trans              &trans            &trans    &trans          &trans        &trans
+        &kp PIPE            &kp LESS_THAN   &kp GREATER_THAN    &kp TILDE         &trans    &kp AMPERSAND   &kp MINUS    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS
+        &hr LEFT_CONTROL A  &hr LEFT_ALT S  &hr LEFT_COMMAND D  &hr LEFT_SHIFT F  &trans    &kp HASH        &kp SLASH    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK
+&trans  &trans              &trans          &trans              &trans            &trans    &kp UNDERSCORE  &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp EQUAL
+                                            &trans              &trans            &trans    &trans          &trans       &trans
             >;
 
             label = "pro";
