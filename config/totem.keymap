@@ -21,37 +21,37 @@
     combos {
         compatible = "zmk,combos";
 
-        left-paren {
+        win1 {
             bindings = <&kp LS(LA(LC(R)))>;
             key-positions = <13 3>;
             layers = <1>;
         };
 
-        left-bracket {
+        win2 {
             bindings = <&kp LS(LA(LC(E)))>;
             key-positions = <12 2>;
             layers = <1>;
         };
 
-        left-brace {
+        win3 {
             bindings = <&kp LS(LA(LC(Q)))>;
             key-positions = <11 1>;
             layers = <1>;
         };
 
-        greater-than {
+        win4 {
             bindings = <&kp LA(LC(LS(V)))>;
             key-positions = <13 24>;
             layers = <1>;
         };
 
-        less-than {
+        win5 {
             bindings = <&kp LS(LA(LC(C)))>;
             key-positions = <12 23>;
             layers = <1>;
         };
 
-        something {
+        win6 {
             bindings = <&kp LS(LA(LC(X)))>;
             key-positions = <22 11>;
             layers = <1>;
