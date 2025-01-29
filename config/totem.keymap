@@ -93,7 +93,7 @@
         };
 
         paste {
-            bindings = <&kp LG(P)>;
+            bindings = <&kp LG(V)>;
             key-positions = <24 23>;
         };
 
