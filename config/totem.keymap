@@ -75,16 +75,19 @@
         at {
             bindings = <&kp AT_SIGN>;
             key-positions = <1 11>;
+            timeout-ms = <65>;
         };
 
         hash {
             bindings = <&kp HASH>;
             key-positions = <2 12>;
+            timeout-ms = <65>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <3 13>;
+            timeout-ms = <65>;
         };
 
         copy {
@@ -100,6 +103,7 @@
         slash {
             bindings = <&kp SLASH>;
             key-positions = <12 23>;
+            timeout-ms = <65>;
         };
 
         backspace {
