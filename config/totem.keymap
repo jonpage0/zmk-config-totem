@@ -131,6 +131,16 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <28 29>;
         };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <16 27>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <6 16>;
+        };
     };
 
     behaviors {
