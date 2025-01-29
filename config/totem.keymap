@@ -153,6 +153,11 @@
             key-positions = <17 28>;
             timeout-ms = <75>;
         };
+
+        exclimation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <0 10>;
+        };
     };
 
     behaviors {
