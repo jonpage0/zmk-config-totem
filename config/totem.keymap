@@ -147,6 +147,12 @@
             key-positions = <6 16>;
             timeout-ms = <65>;
         };
+
+        shift-return {
+            bindings = <&kp LS(ENTER)>;
+            key-positions = <17 28>;
+            timeout-ms = <75>;
+        };
     };
 
     behaviors {
