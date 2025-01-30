@@ -138,19 +138,19 @@
 
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <17 28>;
+            key-positions = <27 16>;
             timeout-ms = <65>;
         };
 
         dash {
             bindings = <&kp MINUS>;
-            key-positions = <7 17>;
+            key-positions = <6 16>;
             timeout-ms = <65>;
         };
 
         shift-return {
             bindings = <&kp LS(ENTER)>;
-            key-positions = <16 27>;
+            key-positions = <17 28>;
             timeout-ms = <75>;
         };
 
