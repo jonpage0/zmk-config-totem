@@ -21,142 +21,163 @@
     combos {
         compatible = "zmk,combos";
 
+        // Global combo timeout setting
+        global-quick-tap-ms = <50>;
+
         win1 {
             bindings = <&kp LS(LA(LC(R)))>;
             key-positions = <13 3>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         win2 {
             bindings = <&kp LS(LA(LC(E)))>;
             key-positions = <12 2>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         win3 {
             bindings = <&kp LS(LA(LC(Q)))>;
             key-positions = <11 1>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         win4 {
             bindings = <&kp LA(LC(LS(V)))>;
             key-positions = <13 24>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         win5 {
             bindings = <&kp LS(LA(LC(C)))>;
             key-positions = <12 23>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         win6 {
             bindings = <&kp LS(LA(LC(X)))>;
             key-positions = <22 11>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         left_space {
             bindings = <&kp SPACE>;
             key-positions = <11 12>;
+            timeout-ms = <50>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <12 13>;
+            timeout-ms = <50>;
         };
 
         esc {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
+            timeout-ms = <50>;
         };
 
         at {
             bindings = <&kp AT_SIGN>;
             key-positions = <1 11>;
-            timeout-ms = <65>;
+            timeout-ms = <50>;
         };
 
         hash {
             bindings = <&kp HASH>;
             key-positions = <2 12>;
-            timeout-ms = <65>;
+            timeout-ms = <50>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <3 13>;
-            timeout-ms = <65>;
+            timeout-ms = <50>;
         };
 
         copy {
             bindings = <&kp LG(C)>;
             key-positions = <22 23>;
+            timeout-ms = <50>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
             key-positions = <24 23>;
+            timeout-ms = <50>;
         };
 
         slash {
             bindings = <&kp SLASH>;
             key-positions = <12 23>;
-            timeout-ms = <65>;
+            timeout-ms = <50>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <6 7>;
+            timeout-ms = <50>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <8 7>;
+            timeout-ms = <50>;
         };
 
         left-paren {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 17>;
+            timeout-ms = <50>;
         };
 
         right_paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <17 18>;
+            timeout-ms = <50>;
         };
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <27 28>;
+            timeout-ms = <50>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <28 29>;
+            timeout-ms = <50>;
         };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <27 16>;
-            timeout-ms = <65>;
+            timeout-ms = <50>;
         };
 
         dash {
             bindings = <&kp MINUS>;
             key-positions = <6 16>;
-            timeout-ms = <65>;
+            timeout-ms = <50>;
         };
 
         shift-return {
             bindings = <&kp LS(ENTER)>;
             key-positions = <17 28>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
         };
 
         exclimation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <0 10>;
+            timeout-ms = <50>;
         };
     };
 
@@ -167,9 +188,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <185>;
-            require-prior-idle-ms = <130>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <180>;
+            require-prior-idle-ms = <100>;
+            flavor = "balanced";
             quick-tap-ms = <150>;
         };
     };
@@ -271,8 +292,8 @@
             >;
         };
 
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
     };
 };
