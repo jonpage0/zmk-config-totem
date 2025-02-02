@@ -185,6 +185,17 @@
             bindings = <&kp SLASH>;
             key-positions = <7 17>;
         };
+
+        less-than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <8 18>;
+            timeout-ms = <50>;
+        };
+
+        greater-than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <18 29>;
+        };
     };
 
     behaviors {
