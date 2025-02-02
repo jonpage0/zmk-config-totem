@@ -282,8 +282,8 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans              &kp K_PP             &kp K_PREV                 &kp K_NEXT               &trans    &kp KP_DIVIDE    &kp N7        &kp N8        &kp N9        &kp KP_MINUS
-        &hr LEFT_CONTROL A  &hr LEFT_ALT K_MUTE  &hr LEFT_COMMAND K_VOL_DN  &hr LEFT_SHIFT K_VOL_UP  &trans    &kp KP_MULTIPLY  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS
+        &trans              &kp C_PP             &kp C_PREV                 &kp C_NEXT               &trans    &kp KP_DIVIDE    &kp N7        &kp N8        &kp N9        &kp KP_MINUS
+        &hr LEFT_CONTROL A  &hr LEFT_ALT K_MUTE  &hr LEFT_COMMAND C_VOL_DN  &hr LEFT_SHIFT C_VOL_UP  &trans    &kp KP_MULTIPLY  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS
 &trans  &kp GRAVE           &trans               &trans                     &trans                   &trans    &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_CLEAR  &kp KP_EQUAL
                                                  &trans                     &trans                   &trans    &trans           &trans        &trans
             >;
