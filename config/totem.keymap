@@ -24,6 +24,7 @@
         compatible = "zmk,combos";
 
         // Global combo timeout setting
+
         global-quick-tap-ms = <75>;
 
         win1 {
@@ -263,7 +264,7 @@
             bindings = <
                             &kp LS(LG(LA(LC(Q))))   &kp LC(LA(LS(LG(W))))  &kp LA(LS(LC(LG(E))))   &kp LS(LA(LC(LG(R))))  &kp LS(LG(LA(LC(T))))    &kp LS(LA(LG(LC(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))   &kp LC(LA(LS(LG(O))))    &kp LA(LS(LC(LG(P))))
                             &hr LEFT_CONTROL LG(A)  &hr LEFT_ALT LG(X)     &hr LEFT_COMMAND LG(C)  &hr LEFT_SHIFT LG(V)   &kp LS(LG(LA(LC(G))))    &kp LEFT               &kp DOWN               &kp UP_ARROW            &kp RIGHT                &kp LS(LG(LA(LC(SQT))))
-&kp LS(LG(LA(LC(ESCAPE))))  &kp LG(LS(LA(LC(Z))))   &kp LS(LG(Z))          &kp LG(Z)               &kp LS(LA(LC(LG(V))))  &kp LA(LS(LC(LG(B))))    &kp LS(LA(LC(LG(N))))  &kp LS(LG(J))          &kp LS(LG(LEFT_BRACE))  &kp LS(LG(RIGHT_BRACE))  &kp LS(LA(LC(LG(SLASH))))  &trans
+&kp LS(LG(LA(LC(ESCAPE))))  &kp LG(LS(LA(LC(Z))))   &kp LS(LG(Z))          &kp LG(Z)               &kp LS(LA(LC(LG(V))))  &kp LA(LS(LC(LG(B))))    &kp LS(LG(K))          &kp LS(LG(J))          &kp LS(LG(LEFT_BRACE))  &kp LS(LG(RIGHT_BRACE))  &kp LS(LA(LC(LG(SLASH))))  &trans
                                                                            &trans                  &trans                 &trans                   &trans                 &trans                 &trans
             >;
         };
