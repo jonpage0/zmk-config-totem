@@ -24,7 +24,7 @@
         compatible = "zmk,combos";
 
         // Global combo timeout setting
-        global-quick-tap-ms = <100>;
+        global-quick-tap-ms = <75>;
 
         win1 {
             bindings = <&kp LS(LA(LC(R)))>;
@@ -160,7 +160,7 @@
 
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <28 17>;
+            key-positions = <27 16>;
             timeout-ms = <100>;
         };
 
@@ -173,7 +173,7 @@
         shift-return {
             bindings = <&kp LS(ENTER)>;
             key-positions = <16 27>;
-            timeout-ms = <50>;
+            timeout-ms = <100>;
         };
 
         exclimation {
@@ -191,23 +191,13 @@
         less-than {
             bindings = <&kp LESS_THAN>;
             key-positions = <8 18>;
-            timeout-ms = <50>;
+            timeout-ms = <100>;
         };
 
         greater-than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <18 29>;
-        };
-
-        less-than {
-            bindings = <&kp LESS_THAN>;
-            key-positions = <8 18>;
-            timeout-ms = <50>;
-        };
-
-        greater-than {
-            bindings = <&kp GREATER_THAN>;
-            key-positions = <18 29>;
+            timeout-ms = <100>;
         };
     };
 
