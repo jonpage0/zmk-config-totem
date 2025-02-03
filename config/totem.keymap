@@ -173,7 +173,7 @@
 
         shift-return {
             bindings = <&kp LS(ENTER)>;
-            key-positions = <16 27>;
+            key-positions = <28 17>;
             timeout-ms = <100>;
         };
 
